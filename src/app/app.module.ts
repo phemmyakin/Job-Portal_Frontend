@@ -7,6 +7,8 @@ import { IndexComponent } from './components/index/index.component';
 import { RegistratonComponent } from './components/registraton/registraton.component';
 import { LoginComponent } from './components/login/login.component';
 import { ProfileComponent } from './components/profile/profile.component';
+import { SlimLoadingBarModule } from 'ng2-slim-loading-bar'
+import { from } from 'rxjs';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,8 @@ import { ProfileComponent } from './components/profile/profile.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlimLoadingBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
