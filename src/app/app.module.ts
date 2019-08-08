@@ -10,6 +10,8 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { SlimLoadingBarModule } from 'ng2-slim-loading-bar'
 import { from } from 'rxjs';
 import { CarouselComponent } from './shared/carousel/carousel.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { CarouselComponent } from './shared/carousel/carousel.component';
     LoginComponent,
     ProfileComponent,
     CarouselComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
