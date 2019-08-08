@@ -11,6 +11,7 @@ import { SlimLoadingBarModule } from 'ng2-slim-loading-bar'
 import { from } from 'rxjs';
 import { CarouselComponent } from './shared/carousel/carousel.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,7 @@ import { CarouselComponent } from './shared/carousel/carousel.component';
     RegistratonComponent,
     LoginComponent,
     ProfileComponent,
-    CarouselComponent
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
