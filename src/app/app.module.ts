@@ -9,6 +9,10 @@ import { LoginComponent } from './components/login/login.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { SlimLoadingBarModule } from 'ng2-slim-loading-bar'
 import { from } from 'rxjs';
+import { CarouselComponent } from './shared/carousel/carousel.component';
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
+
 
 @NgModule({
   declarations: [
@@ -16,13 +20,18 @@ import { from } from 'rxjs';
     IndexComponent,
     RegistratonComponent,
     LoginComponent,
-    ProfileComponent
+    ProfileComponent,
+    CarouselComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlimLoadingBarModule
+    SlimLoadingBarModule,
   ],
+
+  
   providers: [],
   bootstrap: [AppComponent]
 })
